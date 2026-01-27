@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url('Bebas-Regular.ttf');
+
+    font-family: 'Coolvetica';
+    src: url('coolvetica rg.otf');
+
+    font-family: 'Optima';
+    src: url('OPTIMA.TTF');
+}
+
+.special-font {
+    font-family: 'Coolvetica';
+    font-size: 35px;
+}
+
+.persona-font{
+    font-family: 'Optima';
+    font-size: 20px;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.right-content {
+    text-align: right;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 50%;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    padding: 20px;
+}
+
+p, li {
+    font-family: 'Optima';
+}
+
+h1 { 
+    font-family: 'Bebas', serif;
+    font-size: 52px; 
+    letter-spacing: 1px; 
+    text-transform: uppercase;
+}
+
+h2 { 
+    font-size: 24px; 
+    color: #003366; 
+}
+
+h3 { 
+    font-size: 18px; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+}
