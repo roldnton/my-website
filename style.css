@@ -40,6 +40,7 @@ img {
 body {
     font-family: "Segoe UI", Arial, sans-serif;
     padding: 20px;
+    overflow: hidden;
 }
 
 p, li {
@@ -65,4 +66,11 @@ h3 {
     font-size: 18px; 
     text-transform: uppercase; 
     letter-spacing: 2px; 
+}
+
+.boxes {
+    border: 2px solid #003366;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 15px;
 }
