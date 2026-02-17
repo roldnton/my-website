@@ -2,36 +2,10 @@
 <html>
 <head>
     <title>My Portfolio</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-        .header {
-            display: flex;
-            height: 30vh;
-        }
-        .content {
-            display: flex;
-            height: 180vh;
-            overflow: hidden;
-        }
-        .menu {
-            width: 15%;
-            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-        }
-        .main {
-            width: 75%;
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body onload="initPage()">
 
     <div class="header">
         <iframe src="header.html"></iframe>
@@ -45,6 +19,13 @@
             <iframe src="home.html" name="winmain"></iframe>
         </div>
     </div>
+
+    <div class="clock-widget">
+        <div id="digital-clock">00:00:00</div>
+        <div id="date-display">Date Loading...</div>
+    </div>
+    
+    <script src="clock.js"></script>
 
 </body>
 </html>
