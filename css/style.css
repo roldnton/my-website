@@ -188,3 +188,20 @@ h3 {
     animation: fadeInUp 0.8s ease-out forwards;
     opacity: 0; 
 }
+
+.error-message { 
+    color: red; 
+    font-size: 0.9em; 
+    margin-top: 5px; 
+    display: block; 
+}
+
+.success-message { 
+    color: green; 
+    font-weight: bold; 
+    margin-top: 10px; 
+}
+
+input.invalid, textarea.invalid { 
+    border: 2px solid red; 
+}
